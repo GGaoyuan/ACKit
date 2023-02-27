@@ -42,3 +42,5 @@ public let ACSafeBottomMargin_Height: CGFloat = isNotchScreen() ? 34 : 0
 public let ACScreenWidth = UIScreen.main.bounds.size.width;
 
 public let ACScreenHeight = UIScreen.main.bounds.size.height;
+
+public let a = ""
