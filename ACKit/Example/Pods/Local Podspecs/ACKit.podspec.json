@@ -1,0 +1,22 @@
+{
+  "name": "ACKit",
+  "version": "0.1.0",
+  "summary": "A short description of ACKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/gaoyuan/ACKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "gaoyuan": "707216098@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/gaoyuan/ACKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "ACKit/Classes/**/*"
+}
