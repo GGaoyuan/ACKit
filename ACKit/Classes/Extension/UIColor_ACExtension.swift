@@ -10,7 +10,7 @@ import UIKit
 extension UIColor {
     
     /// 将16进制颜色转化为RGB颜色
-    public static func ac_rgbValue(_ hexColor: String) -> (CGFloat, CGFloat, CGFloat) {
+    public static func ac_RGBValue(_ hexColor: String) -> (CGFloat, CGFloat, CGFloat) {
         //先把#替换了
         let hex = hexColor.replacingOccurrences(of: "#", with: "")
         if hex.count != 6 {
@@ -28,4 +28,16 @@ extension UIColor {
         return (red, green, blue)
     }
 
+    
+    /// 获取一个随机颜色
+    /// - Returns: 随机颜色
+    public static func ac_random() -> UIColor {
+        func randomC() -> CGFloat {
+            return CGFloat(arc4random()) / CGFloat(UInt32.max)
+        }
+        return UIColor(red: randomC(),
+                       green: randomC(),
+                       blue: randomC(),
+                       alpha: 1.0)
+    }
 }
