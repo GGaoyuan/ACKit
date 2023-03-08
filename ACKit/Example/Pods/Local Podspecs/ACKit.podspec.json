@@ -18,5 +18,15 @@
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "ACKit/Classes/**/*"
+  "source_files": "Classes/**/*",
+  "resource_bundles": {
+    "ACKit": [
+      "Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "CryptoSwift": [
+
+    ]
+  }
 }

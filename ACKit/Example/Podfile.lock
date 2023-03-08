@@ -1,15 +1,22 @@
 PODS:
-  - ACKit (0.1.0)
+  - ACKit (0.1.0):
+    - CryptoSwift
+  - CryptoSwift (1.5.1)
 
 DEPENDENCIES:
   - ACKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - CryptoSwift
 
 EXTERNAL SOURCES:
   ACKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ACKit: 2da96ecbd52f893b9595f4b5087839df6b293a0e
+  ACKit: 41e9ed026c6449a49cf419b82266d80eae932b30
+  CryptoSwift: c4f2debceb38bf44c80659afe009f71e23e4a082
 
 PODFILE CHECKSUM: 0469e95379be56a6920d00dc6f2114159e2f3689
 

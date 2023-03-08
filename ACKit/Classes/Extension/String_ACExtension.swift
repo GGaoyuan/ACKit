@@ -7,7 +7,6 @@
 
 import UIKit
 
-
-class String_Extension: NSObject {
-
+extension String {
+    
 }
